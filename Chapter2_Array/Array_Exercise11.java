@@ -1,9 +1,8 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Scanner;
-public class Array_Exercise11 {
-     
 
+import java.util.ArrayList;
+import java.util.Scanner;
+
+class Array_Exercise11 {
     public static void main(String[] args) {
         // ask user to input a hex code and preserve it as String
         Scanner input = new Scanner(System.in);
@@ -83,4 +82,3 @@ public class Array_Exercise11 {
         }
     }
 }
-
