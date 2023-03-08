@@ -1,5 +1,12 @@
 import java.util.Scanner;
 public class Exercise07 {
+    static String removeSubstring(String string, String substring){
+        if (substring.isEmpty()){
+            return string;
+        }
+        String result = string.replaceAll(substring, "");
+        return result;
+    }
     public static void main(String[] arg){
         Scanner input = new Scanner(System.in);
         System.out.print("Enter the String: ");
@@ -11,11 +18,5 @@ public class Exercise07 {
         System.out.println(removeSubstring(string, substring ));
 
     }
-    public static String removeSubstring(String string, String substring){
-        if (substring.isEmpty()){
-            return string;
-        }
-        String result = string.replaceAll(substring, "");
-        return result;
-    }
+   
 }
