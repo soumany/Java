@@ -1,10 +1,9 @@
-package Chapter04_User_Defined_Method;
 
 public class Exercise11 {
     public static String verbose(long num) {
-        // Check if the input out of rang
+        // Check if the input out of range
         if (num < 0 || num >= 1000000000) {
-            return "Out of rang";
+            return "Out of range";
         }
 
         if (num == 0) {
