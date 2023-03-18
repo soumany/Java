@@ -1,4 +1,3 @@
-package Chapter04_User_Defined_Method;
 
 import java.util.Arrays;
 
@@ -26,9 +25,9 @@ public class Exercise12 {
     public static void main(String[] arg) {
         int[][] arr2D = { { 1, 5, 9 }, { 3, 8, 43 }, { 20, 2, 64, 10 } };
         // Called the Method to print second largest value
-        int answer = secondLargest(arr2D);
+        int result = secondLargest(arr2D);
         System.out.print("We have : ");
         System.out.println(Arrays.deepToString(arr2D));
-        System.out.println("The second largest in this 2D array is " + answer);
+        System.out.println("The second largest in this 2D array is " + result);
     }
 }
