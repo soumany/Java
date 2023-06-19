@@ -1,3 +1,4 @@
+package Hashmap;
 import java.util.HashMap;
 import java.util.Scanner;
 
@@ -6,7 +7,7 @@ public class exercise4 {
 
     public static void main(String[] args) {
         // initialize account data
-        ACCOUNTS.put("001", new String[]{"Alice", "1000.00", "1234"});
+        ACCOUNTS.put("001", new String[]{"Alex", "1000.00", "1234"});
         ACCOUNTS.put("002", new String[]{"Bob", "500.00", "5678"});
         ACCOUNTS.put("003", new String[]{"Charlie", "1500.00", "9012"});
         ACCOUNTS.put("004", new String[]{"David", "200.00", "3456"});
