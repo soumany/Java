@@ -5,12 +5,14 @@ public class Calculator {
      char operator;
      double num2;
     
+     //constructor 
     public Calculator(double num1, char operator, double num2) {
         this.num1 = num1;
         this.operator = operator;
         this.num2 = num2;
     }
     
+    //Method
     public void add() {
         System.out.println(num1 + " + " + num2 + " = " + (num1 + num2));
     }
@@ -51,6 +53,8 @@ public class Calculator {
         System.out.print("Enter the second number: ");
         double num2 = input.nextDouble();
         
+
+        //create new Object
         Calculator calculator = new Calculator(num1, operator, num2);
         
         switch (operator) {
